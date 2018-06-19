@@ -10,7 +10,7 @@ O projeto consiste em uma agenda online, onde o usuário poderá cadastrar seus 
 # Principais Funcionalidades
 Index 
 
-Página inicial do sistema, responsável em exibir o conteúdo para o usuário, é a primeia tela a ser exibida no sistema mostrando o propósito do projeto.
+Página inicial do sistema, responsável em exibir o conteúdo para o usuário, é a primeia tela a ser exibida no sistema mostrando o propósito do projeto;
 
 Cadastro de Usuário
 
