@@ -4,7 +4,7 @@ Neste projeto são aplicados conceitos de desenvolvimento para web, utilizando o
 O projeto consiste em uma agenda online, onde o usuário poderá cadastrar seus contatos, usufruindo de informações pessoais básicas, como nome, email, dados de endereço e telefone.
 
 # Principais Funcionalidades
-Index 
+Index
 
 Página inicial do sistema, responsável em exibir o conteúdo para o usuário, é a primeia tela a ser exibida no sistema mostrando o propósito do projeto;
 
@@ -28,4 +28,4 @@ Configurações
 
 Página onde exibe os dados cadastrais do cliente, como nome, email e senha e um botão de exclusão de conta;
 
-Versão 1.0
+Versão 1.0.1
