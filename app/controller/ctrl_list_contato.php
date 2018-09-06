@@ -16,7 +16,7 @@ else
 
 	$contato->setId($id);
 
-	$contato->ListarContato($contato);*/
+	$contato->ListarContato($contato);
 
 	try {
 			

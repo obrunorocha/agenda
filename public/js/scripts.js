@@ -37,6 +37,8 @@ function addRecord() {
                     $('#country').val("");
                     $('#number').val("");
                     $('#type').val("");
+
+                    $('#add_new_record_modal').modal('hide');
                     window.location='../../app/view/agenda.php'; 
                 },
 
@@ -131,7 +133,7 @@ function UpdateUserDetails() {
             number:number
     },function (data, status) {
             console.log(data);
-            $("#update_user_modal").modal("hide");
+            $('#update_user_modal').modal('hide');
             readRecords();
         }
     );

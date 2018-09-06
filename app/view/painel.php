@@ -8,38 +8,25 @@ if (!isset($_SESSION['emailSession']) && !isset($_SESSION['passSession']))
 	exit;
 }
 
+
 ?>
 
 <!DOCTYPE html>
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="https://v40.pingendo.com/assets/4.0.0/default/theme.css" type="text/css">
 
-  <style type="text/css">
-  	.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  		color: #fff;
-    	background-color: #4f70ce;
-  	}
-
-	.nav-pills .nav-link{
-		color: #4f70ce;
-	}
-
-  </style>
+<?php include '../../app/view/head.php'; ?>
+<title>Agenda Online - Painel</title>
 </head>
 
 <body>
-  <div class="">
     <div class="container-fluid">
       <div class="row">
         <div class="bg-light col-lg-2">
           <h1 class="text-center p-2">Dashboard</h1>
           <ul class="nav nav-pills flex-column p-2">
-          	<li class="nav-item">
+          <li class="nav-item">
               <a href="../../app/view/painel.php" class="nav-link active">
                 <i class="fa fa-home fa-home"></i>&nbsp;Início</a>
             </li>
@@ -63,7 +50,6 @@ if (!isset($_SESSION['emailSession']) && !isset($_SESSION['passSession']))
         </div>
       </div>
     </div>
-  </div>
 </body>
 
 </html>

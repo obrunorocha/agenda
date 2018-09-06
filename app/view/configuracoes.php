@@ -22,22 +22,8 @@ foreach($result as $row)
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<?php include '../view/head.php'; ?>
   <title>Configurações de Conta</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="https://v40.pingendo.com/assets/4.0.0/default/theme.css" type="text/css"> 
-  <style type="text/css">
-  	.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  		color: #fff;
-    	background-color: #4f70ce;
-  	}
-
-	.nav-pills .nav-link{
-		color: #4f70ce;
-	}
-
-  </style>
 </head>
 
 <body>
@@ -89,9 +75,10 @@ foreach($result as $row)
   </div>
 </body>
 </html>
-<script src="../../public/js/jquery/jquery.min.js"></script>
-<script src="../../public/js/upd-admin.js"></script>
+
+<?php include '../view/footerScripts.php'; ?>
 <script src="../../public/js/del-admin.js"></script>
+
 
 <?php 
 }

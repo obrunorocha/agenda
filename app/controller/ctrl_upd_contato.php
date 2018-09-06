@@ -4,7 +4,7 @@ include '../../autoload.php';
 
 if(empty($_POST))
 {
-	//header("Location: ../../app/view/agenda.php");
+	header("Location: ../../app/view/agenda.php");
 }
 else
 {
