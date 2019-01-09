@@ -84,7 +84,7 @@ $(document).on('click', '.list', function()
     var id = $(this).attr("id");
 
     $.ajax({
-        url :'../../app/view/modalup.php',
+        url :'../../app/view/modalupdate.php',
         method:'POST',
         data:
         {
